@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 2504389958771999709}
   - component: {fileID: 9102455541547007852}
   - component: {fileID: -8615117873293628250}
+  - component: {fileID: 1055522177240289355}
+  - component: {fileID: -2167784818406047493}
+  - component: {fileID: 8079506778285029002}
   m_Layer: 0
   m_Name: Food_Organic_Apple_01
   m_TagString: Untagged
@@ -108,5 +111,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2e0f6a91ac6c9e4494cc70d65863dc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1055522177240289355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504389958770076421}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.44, y: 0.51476735, z: 0.5808594}
+  m_Center: {x: 0, y: 0.13100228, z: 0.012008071}
+--- !u!54 &-2167784818406047493
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504389958770076421}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8079506778285029002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504389958770076421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683130a6f010c9845aa1eafced71c7e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
